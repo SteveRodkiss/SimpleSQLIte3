@@ -73,7 +73,7 @@ def display_all_orders(connection):
     c.execute(sql)
     results = c.fetchall()
     for order in results:
-        print("Name: {0:<16} Time:{1:<16}".format(order[0],order[1]))
+        print("Name: {0:<18} Time:{1:<16}".format(order[0],order[1]))
 
 
 if __name__ == "__main__":
