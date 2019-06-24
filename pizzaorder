@@ -1,0 +1,1 @@
+select * from pizzas inner join pizzaorders on pizzaorders.pizzaid=pizzas.id where pizzaorders.orderid=2
