@@ -1,3 +1,4 @@
+"""basic functionality for a simple pizza ordering system with sqlite databse storage"""
 import sqlite3
 
 def print_menu(connection):
