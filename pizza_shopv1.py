@@ -24,7 +24,7 @@ def insert_pizza_into_order(connection, orderid, pizzaid):
     c = connection.cursor()
     sql = "INSERT INTO pizzaorders (orderid,pizzaid) VALUES (?,?)"
     c.execute(sql,(orderid,pizzaid))
-    connection.commit()
+    connection.commit()    
 
 def display_order_by_name(connection, name):
     """display the pizza's order by a particular customer from their name"""
